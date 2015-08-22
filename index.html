@@ -11,17 +11,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <!-- BOOTSTRAP and jQUERY -->
-  <script type='text/javascript' src='/js/jquery-1.11.3.min.js'></script>
-  <script type='text/javascript' src='/js/bootstrap.min.js'></script>
-  <link rel='stylesheet' type='text/css' href='/css/bootstrap.min.css'/>
+  <script type='text/javascript' src='js/jquery-1.11.3.min.js'></script>
+  <script type='text/javascript' src='js/bootstrap.min.js'></script>
+  <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'/>
   <!-- ANIMATION -->
-  <script type='text/javascript' src='/js/animation.js'></script>
+  <script type='text/javascript' src='js/animation.js'></script>
   <!-- CUSTOM STYLES -->
-  <link rel='stylesheet' type='text/css' href='/css/styles.css'/>
+  <link rel='stylesheet' type='text/css' href='css/styles.css'/>
  </head>
  <body>
 
+ <!-- NAVIGATION -->
+ <div id='navigation' class='container-fluid theme-showcase'>
+  <div class='row'>
+    <div class='col-md-2'>
+      <img id='verizon-logo' src='images/vz_logo.png'>
+    </div>
+
+    <div class='col-md-10'>
+      <!-- UPPER NAVIGATION BAR -->
+      <div class='row'>
+        <div class='col-md-5'>
+          <ul id='upper-left-navigation' class='list-inline'>
+            <li>RESIDENTIAL</li>
+            <li>BUSINESS</li>
+            <li>WIRELESS</li>
+         </ul>
+        </div>
+        <div class='col-md-5 pull-right'>
+          <ul id='upper-right-navigation' class='list-inline'>
+            <li>Espanol</li>
+            <li>Store Locator</li>
+            <li>Sign In/Register</li>
+            <li>Cart</li>
+          </ul>
+      </div>
+      <!-- LOWER NAVIGATION BAR-->
+      <div class='row'>
+        <div class='col-md-7'>
+          <ui id='lower-left-navigation' class='list-inline'>
+            <li>Shop <span class='glyphicon glyphicon-menu-down'></span></li>
+            <li>Support <span class='glyphicon glyphicon-menu-down'></span></li>
+            <li>My Verizon <span class='glyphicon glyphicon-menu-down'></span></li>
+          </ul>
+        </div>
+        <div class='col-md-3 pull-right'>
+          <div id='navigation-search' class='form-group has-feedback has-feedback-left'>
+            <input type='text' class='form-control' placeholder='search verizonwireless.com'/>
+            <i class='form-control-feedback glyphicon glyphicon-search'></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+ </div>
+
+ <!-- SIGN IN -->
+ <!-- MAIN SLIDER -->
+ <div class='slideshow jumbotron'>
+  <div class='container'>
+    <div id='slide-one' class='container main-slide'>
+      <h1>Slide 1</h1>
+    </div>
+    <div id='slide-two' class='container main-slide'>
+      <h1>Slide 2</h1>
+    </div>
+  </div>
+ </div>
+ <div id='slide-buttons' class='container'>
+  <div class='row'>
+    <div class='col-md-4'></div>
+    <div class='col-md-4'>
+      <div id='slide-one-button' class='btn btn-default btn-lg'>Slide 1</div>
+      <div id='slide-two-button' class='btn btn-default btn-lg'>Slide 2</div>
+    </div>
+    <div class='col-md-4'></div>
+  </div>
+ </div>
+
+ <!-- FOOTER -->
 
 
+
+
+
+
+</div>
  </body>
- </html>
+</html>

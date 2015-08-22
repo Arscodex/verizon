@@ -1,0 +1,64 @@
+/* Color Variables */
+/* Main Styles */
+body {
+  font-family: Arial, sans; }
+
+/* Header and Navigation */
+#verizon-logo {
+  margin-left: 40px;
+  width: 110px;
+  height: 100px; }
+
+#navigation {
+  margin: 0 auto;
+  width: 80%;
+  color: #6d6e71; }
+  #navigation ul {
+    font-size: 12px; }
+    #navigation ul li {
+      padding: 10px 5px; }
+    #navigation ul li:hover {
+      background-color: #eef1f9;
+      color: #f31c1a;
+      cursor: pointer; }
+  #navigation #upper-left-navigation li:last-child {
+    background-color: #eef1f9;
+    color: #f31c1a;
+    cursor: pointer; }
+  #navigation #upper-right-navigation li {
+    padding: 10px 10px; }
+  #navigation #lower-left-navigation {
+    width: 100%; }
+  #navigation #lower-left-navigation li {
+    padding: 15px 20px;
+    font-size: 25px; }
+  #navigation #lower-left-navigation li span {
+    font-size: 15px;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold; }
+  #navigation #navigation-search {
+    padding: 15px 20px;
+    width: 200px; }
+    #navigation #navigation-search input {
+      font-size: 10px; }
+
+/* Slideshow */
+.slideshow {
+  min-height: 200px; }
+
+.main-slide {
+  color: white;
+  text-align: center;
+  position: absolute; }
+  .main-slide:first-child {
+    display: block;
+    background-color: #f31c1a; }
+  .main-slide:last-child {
+    display: none;
+    background-color: #cccccc; }
+
+#slide-buttons div {
+  margin: 0 auto; }
+
+/*# sourceMappingURL=styles.css.map */

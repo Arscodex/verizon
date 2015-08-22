@@ -1,0 +1,95 @@
+
+
+/* Color Variables */
+
+$mainGrey:#eef1f9;
+$mainRed:#f31c1a;
+$fontGrey:#6d6e71;
+$darkGrey:#cccccc;
+
+
+/* Main Styles */
+
+body{
+	font-family:Arial, sans;
+}
+
+
+/* Header and Navigation */
+
+
+#verizon-logo{
+	margin-left:40px;
+	width:110px;
+	height:100px;
+}
+
+#navigation{
+	margin:0 auto;
+	width:80%;
+	color:$fontGrey;
+	& ul{
+		font-size:12px;
+		& li{
+			padding: 10px 5px;
+		}
+		& li:hover{
+			background-color:$mainGrey;
+			color:$mainRed;
+			cursor:pointer;
+		}
+
+	}
+	& #upper-left-navigation li:last-child{
+		background-color:$mainGrey;
+		color:$mainRed;
+		cursor:pointer;
+	}
+	& #upper-right-navigation li{
+		padding: 10px 10px;
+	}
+	& #lower-left-navigation{
+		width:100%;
+	}
+	& #lower-left-navigation li{
+		padding: 15px 20px;
+		font-size:25px;
+	}
+	& #lower-left-navigation li span{
+		font-size:15px;
+		text-align:right;
+		vertical-align:middle;
+		font-weight:bold;
+	}
+	& #navigation-search{
+		padding: 15px 20px;
+		width: 200px;
+		& input{
+			font-size:10px;
+		}
+	}
+}
+
+/* Slideshow */
+
+.slideshow{
+	min-height:200px;
+}
+
+.main-slide{
+	color:white;
+	text-align:center;
+	position:absolute;
+	&:first-child{
+		display:block;
+		background-color:$mainRed;
+	}
+	&:last-child{
+		display:none;
+		background-color:$darkGrey;
+	}
+}
+
+#slide-buttons div{
+	margin:0 auto;
+}
